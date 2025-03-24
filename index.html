@@ -1,11 +1,20 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lasius Web Services - Transform Your Online Presence</title>
     <meta name="description" content="Transform your online presence and dominate your market with Lasius Web Services. Expert SEO, ads management, and unlimited design edits.">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 <body class="bg-gray-900 text-gray-100 font-sans antialiased">
@@ -13,36 +22,47 @@
     <header class="fixed w-full z-50 bg-gray-900/95 backdrop-blur-sm border-b border-gray-800">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <a href="/" class="text-2xl font-bold tracking-tight hover:text-indigo-400 transition-colors">
+                <a href="https://lasiusweb.github.io/lasius-web-services-2025-03-24-uv3yf" class="text-2xl font-bold tracking-tight hover:text-indigo-400 transition-colors duration-300">
                     Lasius Web
                 </a>
                 <div class="hidden md:flex space-x-8">
-                    <a href="#features" class="hover:text-indigo-400 transition-colors">Features</a>
-                    <a href="#benefits" class="hover:text-indigo-400 transition-colors">Benefits</a>
-                    <a href="#faq" class="hover:text-indigo-400 transition-colors">FAQ</a>
-                    <a href="#contact" class="hover:text-indigo-400 transition-colors">Contact</a>
+                    <a href="#features" class="hover:text-indigo-400 transition-colors duration-300">Features</a>
+                    <a href="#video" class="hover:text-indigo-400 transition-colors duration-300">Video</a>
+                    <a href="#benefits" class="hover:text-indigo-400 transition-colors duration-300">Benefits</a>
+                    <a href="#testimonials" class="hover:text-indigo-400 transition-colors duration-300">Testimonials</a>
+                    <a href="#about" class="hover:text-indigo-400 transition-colors duration-300">About</a>
+                    <a href="#faq" class="hover:text-indigo-400 transition-colors duration-300">FAQ</a>
                 </div>
-                <a href="https://lasiuswebservices.com" class="hidden md:block px-6 py-2 bg-indigo-600 hover:bg-indigo-700 rounded-full font-medium transition-all transform hover:scale-105">
+                <a href="https://lasiuswebservices.com" class="hidden md:block px-6 py-2 bg-indigo-600 hover:bg-indigo-700 rounded-full font-medium transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
                     Get Started
                 </a>
-                <button class="md:hidden text-gray-100 hover:text-indigo-400">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                    </svg>
+                <button class="mobile-menu-button md:hidden" aria-label="Toggle mobile menu">
+                    <i class="fas fa-bars text-2xl"></i>
                 </button>
+            </div>
+            <div class="mobile-menu hidden md:hidden mt-4 bg-gray-800 rounded-lg p-4">
+                <a href="#features" class="block py-2 hover:text-indigo-400 transition-colors duration-300">Features</a>
+                <a href="#video" class="block py-2 hover:text-indigo-400 transition-colors duration-300">Video</a>
+                <a href="#benefits" class="block py-2 hover:text-indigo-400 transition-colors duration-300">Benefits</a>
+                <a href="#testimonials" class="block py-2 hover:text-indigo-400 transition-colors duration-300">Testimonials</a>
+                <a href="#about" class="block py-2 hover:text-indigo-400 transition-colors duration-300">About</a>
+                <a href="#faq" class="block py-2 hover:text-indigo-400 transition-colors duration-300">FAQ</a>
+                <a href="https://lasiuswebservices.com" class="block mt-4 px-6 py-2 bg-indigo-600 hover:bg-indigo-700 rounded-full font-medium text-center transition-all duration-300 transform hover:scale-105">
+                    Get Started
+                </a>
             </div>
         </nav>
     </header>
 
     <!-- Hero Section -->
-    <section class="relative min-h-screen flex items-center justify-center py-24 px-6">
-        <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80')] bg-cover bg-center opacity-25"></div>
+    <section class="relative min-h-screen flex items-center justify-center py-24 px-6 bg-gradient-to-br from-gray-900 via-indigo-900 to-gray-900">
+        <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80')] bg-cover bg-center opacity-20"></div>
         <div class="absolute inset-0 bg-gray-900/75"></div>
         <div class="relative container mx-auto text-center max-w-4xl">
-            <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">Lasius Web Services</h1>
-            <p class="text-xl md:text-2xl text-gray-300 mb-12">Transform your online presence. Dominate your market.</p>
-            <a href="https://lasiuswebservices.com" class="inline-block px-8 py-4 bg-indigo-600 hover:bg-indigo-700 rounded-full text-lg font-medium transition-all transform hover:scale-105">
-                Start Your Transformation
+            <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-purple-400">Lasius Web Services</h1>
+            <p class="text-xl md:text-2xl text-gray-300 mb-12">Transform your digital presence with cutting-edge web solutions. Experience 300% growth in online visibility.</p>
+            <a href="https://lasiuswebservices.com" class="inline-block px-8 py-4 bg-indigo-600 hover:bg-indigo-700 rounded-full text-lg font-medium transition-all duration-300 transform hover:scale-105 hover:shadow-xl">
+                Start Your Digital Journey
             </a>
         </div>
     </section>
@@ -52,31 +72,32 @@
         <div class="container mx-auto max-w-7xl">
             <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Premium Features</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-                <div class="bg-gray-900 rounded-2xl p-8 hover:transform hover:scale-105 transition-all duration-300">
+                <div class="bg-gray-900 rounded-2xl p-8 hover:transform hover:scale-105 transition-all duration-300 hover:shadow-2xl">
                     <div class="h-12 w-12 bg-indigo-600 rounded-xl mb-6 flex items-center justify-center">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
                         </svg>
                     </div>
-                    <h3 class="text-2xl font-bold mb-4">SEO + Ads Mastery</h3>
-                    <p class="text-gray-400">Dominate search results and maximize ad performance with our expert optimization strategies.</p>
+                    <h3 class="text-2xl font-bold mb-4">Advanced SEO + Ads Management</h3>
+                    <p class="text-gray-400">Boost your search rankings and ROI with our data-driven optimization strategies. Average client sees 200% increase in qualified leads within 6 months.</p>
                 </div>
-                <div class="bg-gray-900 rounded-2xl p-8 hover:transform hover:scale-105 transition-all duration-300">
+                <div class="bg-gray-900 rounded-2xl p-8 hover:transform hover:scale-105 transition-all duration-300 hover:shadow-2xl">
                     <div class="h-12 w-12 bg-indigo-600 rounded-xl mb-6 flex items-center justify-center">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
                         </svg>
                     </div>
-                    <h3 class="text-2xl font-bold mb-4">Unlimited Design Edits</h3>
-                    <p class="text-gray-400">Continuous design improvements to keep your website fresh and engaging.</p>
+                    <h3 class="text-2xl font-bold mb-4">Unlimited Design Evolution</h3>
+                    <p class="text-gray-400">Keep your website fresh with continuous design updates. Includes A/B testing and conversion optimization for maximum impact.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Video Section -->
-    <section class="py-24 px-6">
+    <section id="video" class="py-24 px-6">
         <div class="container mx-auto max-w-4xl">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-8">Watch How We Transform Businesses</h2>
             <div class="relative rounded-2xl overflow-hidden shadow-2xl">
                 <div class="relative pb-[56.25%]">
                     <iframe 
@@ -89,23 +110,69 @@
                     </iframe>
                 </div>
             </div>
+            <p class="text-center text-gray-400 mt-6">Discover how our proven strategies drive real business growth</p>
         </div>
     </section>
 
     <!-- Benefits Section -->
     <section id="benefits" class="py-24 px-6 bg-gray-800">
         <div class="container mx-auto max-w-7xl">
-            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Benefits</h2>
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Transformative Benefits</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-                <div class="bg-gray-900 rounded-2xl p-8">
-                    <h3 class="text-2xl font-bold mb-4">More Leads Online</h3>
-                    <p class="text-gray-400">Generate qualified leads consistently through optimized digital strategies.</p>
+                <div class="bg-gray-900 rounded-2xl p-8 hover:transform hover:scale-105 transition-all duration-300 hover:shadow-2xl">
+                    <h3 class="text-2xl font-bold mb-4">Exponential Lead Generation</h3>
+                    <p class="text-gray-400">Our clients average 300% increase in qualified leads through our comprehensive digital marketing approach and advanced targeting strategies.</p>
                 </div>
-                <div class="bg-gray-900 rounded-2xl p-8">
-                    <h3 class="text-2xl font-bold mb-4">Stunning Designs Fast</h3>
-                    <p class="text-gray-400">Quick turnaround on beautiful, conversion-focused design updates.</p>
+                <div class="bg-gray-900 rounded-2xl p-8 hover:transform hover:scale-105 transition-all duration-300 hover:shadow-2xl">
+                    <h3 class="text-2xl font-bold mb-4">Rapid Design Implementation</h3>
+                    <p class="text-gray-400">Experience lightning-fast turnaround on design updates with our dedicated team, ensuring your website always reflects your latest offerings and brand evolution.</p>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-24 px-6">
+        <div class="container mx-auto max-w-7xl">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Client Success Stories</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div class="bg-gray-800 rounded-2xl p-8 hover:transform hover:scale-105 transition-all duration-300">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-300 mb-6">"Lasius Web Services transformed our online presence completely. Our lead generation increased by 250% in just 4 months, and their unlimited design updates keep our site fresh and engaging."</p>
+                    <div>
+                        <p class="font-bold">Sarah Johnson</p>
+                        <p class="text-gray-400">CEO, TechStart Solutions</p>
+                    </div>
+                </div>
+                <div class="bg-gray-800 rounded-2xl p-8 hover:transform hover:scale-105 transition-all duration-300">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-300 mb-6">"The SEO results were beyond our expectations. We're now ranking #1 for our main keywords, and our ad campaigns are delivering consistent ROI."</p>
+                    <div>
+                        <p class="font-bold">Michael Chen</p>
+                        <p class="text-gray-400">Marketing Director, Global Innovations</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-24 px-6 bg-gray-800">
+        <div class="container mx-auto max-w-4xl text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-8">Our Story</h2>
+            <p class="text-gray-300 leading-relaxed">Founded in 2020, Lasius Web Services emerged from a vision to transform how businesses approach digital presence. Our team of seasoned experts combines cutting-edge technology with proven marketing strategies to deliver exceptional results. We're driven by our core values of innovation, transparency, and client success, having helped over 200 businesses achieve their digital goals.</p>
         </div>
     </section>
 
@@ -114,13 +181,13 @@
         <div class="container mx-auto max-w-3xl">
             <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
             <div class="space-y-6">
-                <div class="bg-gray-800 rounded-xl p-6">
-                    <h3 class="text-xl font-semibold mb-4">What services do you offer?</h3>
-                    <p class="text-gray-400">We provide comprehensive digital solutions including SEO, paid advertising, and unlimited design services.</p>
+                <div class="bg-gray-800 rounded-xl p-6 hover:transform hover:scale-105 transition-all duration-300">
+                    <h3 class="text-xl font-semibold mb-4">What makes your services unique?</h3>
+                    <p class="text-gray-400">We offer an all-in-one solution combining SEO, paid advertising, and unlimited design updates. Our data-driven approach and dedicated team ensure consistent results and ongoing optimization.</p>
                 </div>
-                <div class="bg-gray-800 rounded-xl p-6">
-                    <h3 class="text-xl font-semibold mb-4">How long until I see results?</h3>
-                    <p class="text-gray-400">While results vary, most clients see significant improvements within 3-6 months of implementing our strategies.</p>
+                <div class="bg-gray-800 rounded-xl p-6 hover:transform hover:scale-105 transition-all duration-300">
+                    <h3 class="text-xl font-semibold mb-4">What ROI can I expect?</h3>
+                    <p class="text-gray-400">Our clients typically see a 3-5x return on investment within the first 6 months. We provide detailed monthly reports tracking key metrics and continuously optimize for better results.</p>
                 </div>
             </div>
         </div>
@@ -131,9 +198,10 @@
         <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80')] bg-cover bg-center opacity-25"></div>
         <div class="absolute inset-0 bg-indigo-900/75"></div>
         <div class="relative container mx-auto max-w-4xl text-center">
-            <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Transform Your Online Presence?</h2>
-            <a href="https://lasiuswebservices.com" class="inline-block px-8 py-4 bg-white text-indigo-900 hover:bg-gray-100 rounded-full text-lg font-medium transition-all transform hover:scale-105">
-                Get Started Now
+            <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Transform Your Digital Presence?</h2>
+            <p class="text-xl text-gray-300 mb-8">Join hundreds of successful businesses who've already made the switch.</p>
+            <a href="https://lasiuswebservices.com" class="inline-block px-8 py-4 bg-white text-indigo-900 hover:bg-gray-100 rounded-full text-lg font-medium transition-all duration-300 transform hover:scale-105 hover:shadow-xl">
+                Begin Your Transformation
             </a>
         </div>
     </section>
@@ -145,26 +213,38 @@
                 <div>
                     <h3 class="text-xl font-bold mb-4">Lasius Web</h3>
                     <p class="text-gray-400">Transform your online presence. Dominate your market.</p>
+                    <div class="mt-6 flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-indigo-400 transition-colors duration-300">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-indigo-400 transition-colors duration-300">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-indigo-400 transition-colors duration-300">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </div>
                 </div>
                 <div>
                     <h4 class="text-lg font-semibold mb-4">Contact</h4>
-                    <a href="mailto:contact@lasiuswebservices.com" class="text-gray-400 hover:text-indigo-400 transition-colors">
+                    <a href="mailto:contact@lasiuswebservices.com" class="text-gray-400 hover:text-indigo-400 transition-colors duration-300">
                         contact@lasiuswebservices.com
                     </a>
                 </div>
                 <div>
-                    <h4 class="text-lg font-semibold mb-4">Links</h4>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
                     <ul class="space-y-2">
-                        <li><a href="#features" class="text-gray-400 hover:text-indigo-400 transition-colors">Features</a></li>
-                        <li><a href="#benefits" class="text-gray-400 hover:text-indigo-400 transition-colors">Benefits</a></li>
-                        <li><a href="#faq" class="text-gray-400 hover:text-indigo-400 transition-colors">FAQ</a></li>
+                        <li><a href="#features" class="text-gray-400 hover:text-indigo-400 transition-colors duration-300">Features</a></li>
+                        <li><a href="#benefits" class="text-gray-400 hover:text-indigo-400 transition-colors duration-300">Benefits</a></li>
+                        <li><a href="#faq" class="text-gray-400 hover:text-indigo-400 transition-colors duration-300">FAQ</a></li>
+                        <li><a href="https://lasiusweb.github.io/lasius-web-services-2025-03-24-uv3yf/blog.html" class="text-gray-400 hover:text-indigo-400 transition-colors duration-300">Blog</a></li>
                     </ul>
                 </div>
                 <div>
                     <h4 class="text-lg font-semibold mb-4">Legal</h4>
                     <ul class="space-y-2">
-                        <li><a href="/privacy" class="text-gray-400 hover:text-indigo-400 transition-colors">Privacy Policy</a></li>
-                        <li><a href="/terms" class="text-gray-400 hover:text-indigo-400 transition-colors">Terms of Service</a></li>
+                        <li><a href="https://lasiusweb.github.io/lasius-web-services-2025-03-24-uv3yf/privacy.html" class="text-gray-400 hover:text-indigo-400 transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://lasiusweb.github.io/lasius-web-services-2025-03-24-uv3yf/terms.html" class="text-gray-400 hover:text-indigo-400 transition-colors duration-300">Terms of Service</a></li>
                     </ul>
                 </div>
             </div>
@@ -173,5 +253,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
